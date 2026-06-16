@@ -1,0 +1,41 @@
+import Link from "next/link";
+
+export default function Hero() {
+  return (
+    <section className="bg-brand-navy text-white py-20 md:py-28">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-3xl">
+          <div className="inline-flex items-center gap-2 bg-brand-orange/20 text-brand-orange-light border border-brand-orange/30 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
+            Powered by CarSoup.com — Minnesota&apos;s Auto Marketplace
+          </div>
+
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            Car buying is stressful.
+            <br />
+            <span className="text-brand-orange">It doesn&apos;t have to be.</span>
+          </h1>
+
+          <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
+            Most buyers walk into a dealership at a disadvantage — uncertain on price,
+            unprepared for pressure, unsure what to trust. CarSoup Car Concierge
+            levels the field. Get an AI-powered research assistant, a free buyer&apos;s
+            guide, or a real human expert in your corner.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link href="/signup" className="btn-primary text-base px-8 py-3.5">
+              Start Free — No Credit Card
+            </Link>
+            <a href="#pricing" className="btn-secondary text-base px-8 py-3.5 border-white/30 text-white hover:bg-white/10">
+              See Pricing
+            </a>
+          </div>
+
+          <p className="text-sm text-gray-400 mt-5">
+            Free tier includes AI assistant and buyer&apos;s guide. No payment required.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}

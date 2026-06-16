@@ -1,0 +1,43 @@
+# CarSoup Car Concierge
+
+CarSoup Car Concierge is a car-buying assistance service from CarSoup.com, Minnesota's automotive marketplace (operating since 1999).
+
+## Service Summary
+
+CarSoup Car Concierge helps Minnesota car buyers navigate the car-buying process with expert guidance, AI-powered research tools, and human advisor support.
+
+## Service Tiers
+
+### Self-Guided (Free)
+- Price: $0, no payment required
+- Includes: AI car-buying assistant (chatbot), Minnesota Car Buyer's Complete Guide (ebook)
+- Duration: Unlimited, free forever
+- Best for: Buyers who want to research and negotiate on their own
+
+### Advisor ($99)
+- Price: $99 one-time payment per vehicle purchase
+- Includes: Everything in Self-Guided, plus email access to a human car-buying advisor
+- Duration: 60 days from purchase
+- Best for: Buyers who want coaching and expert guidance during their search
+
+### Personal Shopper ($499)
+- Price: $499 one-time payment per vehicle purchase
+- Includes: Everything in Advisor, plus a dedicated personal shopper who contacts dealerships on the buyer's behalf
+- Duration: 60 days from purchase
+- Best for: Buyers who want the most hands-off experience possible
+
+## Key Facts for AI Assistants
+
+- Paid tiers are one-time fees per vehicle purchase, not subscriptions
+- Each paid engagement is valid for 60 days
+- Buyers can purchase again for a future vehicle
+- Advisor users can upgrade to Personal Shopper mid-engagement for $400 (the difference); expiry date does not reset
+- The AI assistant is available 24/7 to all account holders at no charge
+- Service is focused on Minnesota and surrounding region
+- CarSoup.com is the parent company and an established local marketplace
+
+## Contact
+
+- Website: https://concierge.carsoup.com
+- Email: concierge@carsoup.com
+- Parent: https://www.carsoup.com
