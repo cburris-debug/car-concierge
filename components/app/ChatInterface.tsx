@@ -1,6 +1,44 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, Fragment } from "react";
+
+function renderContent(text: string) {
+  const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^)]+)\)|(https?:\/\/[^\s]+)/g;
+  const lines = text.split("\n");
+
+  return lines.map((line, li) => {
+    const parts: React.ReactNode[] = [];
+    let last = 0;
+    let match: RegExpExecArray | null;
+    linkRegex.lastIndex = 0;
+
+    while ((match = linkRegex.exec(line)) !== null) {
+      if (match.index > last) parts.push(line.slice(last, match.index));
+      if (match[1] && match[2]) {
+        parts.push(
+          <a key={match.index} href={match[2]} target="_blank" rel="noopener noreferrer" className="underline opacity-90 hover:opacity-100">
+            {match[1]}
+          </a>
+        );
+      } else if (match[3]) {
+        parts.push(
+          <a key={match.index} href={match[3]} target="_blank" rel="noopener noreferrer" className="underline opacity-90 hover:opacity-100">
+            {match[3]}
+          </a>
+        );
+      }
+      last = match.index + match[0].length;
+    }
+    if (last < line.length) parts.push(line.slice(last));
+
+    return (
+      <Fragment key={li}>
+        {parts}
+        {li < lines.length - 1 && <br />}
+      </Fragment>
+    );
+  });
+}
 
 interface Message {
   role: "user" | "assistant";
@@ -142,7 +180,7 @@ export default function ChatInterface({ userId }: ChatInterfaceProps) {
                     : "bg-gray-100 text-gray-800 rounded-bl-sm"
                 }`}
               >
-                {msg.content}
+                {renderContent(msg.content)}
               </div>
             </div>
 
