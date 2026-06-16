@@ -26,7 +26,7 @@ export default function Hero() {
             <Link href="/signup" className="btn-primary text-base px-8 py-3.5">
               Start Free — No Credit Card
             </Link>
-            <a href="#pricing" className="btn-secondary text-base px-8 py-3.5 border-white/30 text-white hover:bg-white/10">
+            <a href="#pricing" className="btn-secondary bg-transparent text-base px-8 py-3.5 border-white/30 text-white hover:bg-white/10">
               See Pricing
             </a>
           </div>
