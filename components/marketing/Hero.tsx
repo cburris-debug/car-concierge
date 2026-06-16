@@ -16,10 +16,10 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
-            Most buyers walk into a dealership at a disadvantage — uncertain on price,
-            unprepared for pressure, unsure what to trust. CarSoup Car Concierge
-            levels the field. Get an AI-powered research assistant, a free buyer&apos;s
-            guide, or a real human expert in your corner.
+            Buying a car is one of the biggest purchases you&apos;ll make — and the
+            process can feel overwhelming. Pricing is complex, options are endless,
+            and time is short. CarSoup Car Concierge helps you get there faster,
+            fully informed, and confident you got a fair deal.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

@@ -15,7 +15,7 @@ const STEPS = [
     number: "03",
     title: "Buy with confidence",
     description:
-      "Walk into every conversation prepared. Know what to offer, what to skip, and when to walk away. Your CarSoup concierge is in your corner from first search to signed paperwork.",
+      "Walk into every conversation prepared. Know what to expect, what questions to ask, and how to evaluate your options. Your CarSoup concierge is with you from first search to signed paperwork.",
   },
 ];
 

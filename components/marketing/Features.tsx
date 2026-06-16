@@ -22,7 +22,7 @@ export default function Features() {
               {[
                 "Answers questions about specific vehicles and pricing",
                 "Explains every line on a dealer worksheet",
-                "Gives you scripts for common negotiation moments",
+                "Prepares you for common questions and conversations",
                 "Available any time — no appointment needed",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-gray-700">
@@ -57,7 +57,7 @@ export default function Features() {
                 For a 2022 CR-V EX with 28k miles, current market data puts retail around $28,500–$30,000 in MN. A strong opening offer is $27,200. Here&apos;s why...
               </div>
               <div className="bg-brand-navy rounded-xl rounded-tr-none p-3 text-sm text-white max-w-xs ml-auto">
-                Dealer invoice on that trim was ~$28,100 new. Used inventory is elevated right now, so they have room to negotiate. Want the counter script?
+                Used inventory in MN is elevated right now, so market value is closer to $27,500–$28,000. Want to walk through what a fair offer looks like?
               </div>
             </div>
           </div>
