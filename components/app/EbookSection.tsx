@@ -1,6 +1,4 @@
 export default function EbookSection() {
-  // [EBOOK URL/PATH] — replace /ebook.pdf with actual ebook file path
-  // Drop the PDF into /public/ebook.pdf or update this path to a hosted URL
   const ebookPath = "/ebook.pdf";
 
   return (
@@ -31,17 +29,17 @@ export default function EbookSection() {
         </div>
 
         <h3 className="font-bold text-brand-navy text-lg mb-2">
-          Minnesota Car Buyer&apos;s Complete Guide
+          Minnesota Car Buyer&apos;s Quick Start Guide
         </h3>
         <p className="text-gray-600 text-sm mb-6 max-w-xs">
-          Every step of the buying process, Minnesota-specific — from budget
-          to signed paperwork without surprises.
+          A practical primer covering what to know before you start — pricing,
+          timing, and what to watch out for at the dealership.
         </p>
 
         <div className="flex flex-col gap-3 w-full max-w-xs">
           <a
             href={ebookPath}
-            download="Minnesota-Car-Buyers-Guide.pdf"
+            download="Minnesota-Car-Buyers-Quick-Start-Guide.pdf"
             className="btn-primary text-sm py-3 text-center"
           >
             Download PDF
@@ -55,11 +53,6 @@ export default function EbookSection() {
             Read Online
           </a>
         </div>
-
-        <p className="text-xs text-gray-400 mt-4">
-          {/* [EBOOK URL/PATH] — place your PDF at public/ebook.pdf or update ebookPath above */}
-          Placeholder: add your PDF to <code className="text-xs">/public/ebook.pdf</code>
-        </p>
       </div>
     </div>
   );
